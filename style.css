@@ -1,42 +1,29 @@
-h1 {
+*{
 
-    color: teal;
+    padding: 0;
+    margin: 0;
 }
 
-p {
+section{
 
-    color: red;
+
+    display: flex;
+    /* flex-direction: column; */
 }
 
-.nav_bar{
+.nav_list{
 
     display: flex;
 
-    flex-wrap: wrap;
-
-    background-color: blue;
+    border: 5px solid black;
     
-}
-
-.nav_list {
-
-    display: flex;
-
-    padding: 10px, 30px;
 }
 
 .nav_list li {
 
-    margin: 20px;
-}
+    display: flex;
 
-.nav_list li a {
+    justify-content: center;
 
-    color: yellow;
-
-}
-
-.nav_list li :hover {
-
-    color : green;
+    margin: 10px;
 }
