@@ -1,21 +1,42 @@
-h1{
+h1 {
 
     color: teal;
 }
 
-p{
+p {
 
-    color : red;
+    color: red;
 }
 
 .nav_bar{
 
     display: flex;
+
+    flex-wrap: wrap;
+
+    background-color: blue;
+    
 }
 
-.nav_list{
+.nav_list {
 
     display: flex;
 
-    padding: 10px , 30px;
+    padding: 10px, 30px;
+}
+
+.nav_list li {
+
+    margin: 20px;
+}
+
+.nav_list li a {
+
+    color: yellow;
+
+}
+
+.nav_list li :hover {
+
+    color : green;
 }
